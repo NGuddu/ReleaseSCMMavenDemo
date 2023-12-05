@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.naiyyar</groupId>
 	<artifactId>scmreleasemaven</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<properties>
 		<project.scm.id>github</project.scm.id>
 		  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
