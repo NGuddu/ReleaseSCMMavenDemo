@@ -5,6 +5,11 @@
 	<version>1.1-SNAPSHOT</version>
 	<properties>
 		<project.scm.id>github</project.scm.id>
+		  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	  <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	  <java.version>8</java.version>
+	  <maven.compiler.source>${java.version}</maven.compiler.source>
+	  <maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
 	<build>
 		<extensions>
@@ -27,7 +32,8 @@
 		  scm:git:https://github.com/NGuddu/ReleaseSCMMavenDemo.git
 	  </developerConnection>
 		<url>https://github.com/NGuddu/ReleaseSCMMavenDemo</url>
-	</scm>
+	  <tag>1.1</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>packagecloud.release</id>
