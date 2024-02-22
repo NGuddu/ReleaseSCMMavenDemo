@@ -11,6 +11,10 @@ public class HelloWorld {
 		list.add("Hello");
 		list.add("Hello");
 		System.out.println("Hello");
+		list.add("Hello");
+		list.add("Hello");
+		list.add("Hello");
+		list.add("Hello");
 
 	}
 
